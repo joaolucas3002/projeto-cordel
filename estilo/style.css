@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    border: none;
+}
+
+header{
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 5vw 0;
+
+}
+header h1{
+    font-weight: bolder;
+    font-family: 'Passion One', cursive;
+    font-size: 8vw;
+
+
+}
+h3,a{
+    font: var(--font1);
+    font-size: 2vw;
+    color: white;
+    padding: 0.7vw 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a{
+    font-weight: bolder;
+}
+a:hover{
+    text-decoration: underline;
+}
+.cordel{
+    padding: 7vw 0 7vw 3vw;
+}
+.cordel p{
+    font-weight: normal;
+    font-size: 3.5vw;
+    font-family:'Sriracha', cursive;
+    font-style: oblique;
+    line-height: 7vw;
+}
+
+#img1,#img2{
+    background-position: center right;
+    background-size:cover;
+    background-attachment: fixed;
+}
+#img1{
+    background-image: url(../imagens/background001.jpg);
+}
+#img2{
+    background-image: url(../imagens/background002.jpg);
+}
+#img1 p,#img2 p{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.486);
+    color: white;
+    padding: 0.5vw;
+}
+
+
+
+
+
+
+footer{
+    background: black;
+    padding: 1vw 0;
+    text-align: center;
+    font-family: var(--font1);
+    
+}
+footer p{
+    color: white;
+    font-size: 2vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
