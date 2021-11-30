@@ -45,7 +45,7 @@ a:hover{
 }
 
 #img1,#img2{
-    background-position: center right;
+    background-position: center center;
     background-size:cover;
     background-attachment: fixed;
 }
